@@ -1,0 +1,4 @@
+I am failing only the A* tests in PathTest. There seems to be an infinite loop in my pathTo, which is cause by my prevs arrayList
+(the ArrayList to hold predecessors) not being filled correctly. However, it is only not filled correctly on the A* test.
+When I debugged it for the previous path tests, the prevs arrayList was filled correctly. I am not sure what exactly is going wrong
+or how to fix it.
